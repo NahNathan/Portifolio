@@ -1,0 +1,66 @@
+body{
+    background: black;
+}
+
+header{
+	background:  purple;
+	padding: 3em 0;
+}
+
+.caixa{
+	position: relative;
+	width: 6em;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 3em;
+}
+
+nav li{
+	display: inline;
+	margin: 2em;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: white;	
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: lightgreen;
+}
+
+nav a:active{
+	color:lightblue;
+	text-decoration: underline;
+}
+
+p{
+    color: white;
+    font: 25px bold;
+    text-align: center;
+    margin:1em;
+}
+
+.video{
+	text-align: center;
+	
+}
+
+.final{
+    text-align: center;
+	font-size: 30px;
+	margin: 20 0 0 0px;
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
+footer{
+	text-align: center;	
+	background: purple;
+}
